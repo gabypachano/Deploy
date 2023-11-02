@@ -6,7 +6,7 @@ import Landing from "./views/Landing/Landing";
 import NavBar from "./components/NavBar/NavBar";
 import "./App.css";
 import axios from "axios";
-axios.defaults.baseURL = "http://localhost:3001/";
+axios.defaults.baseURL = "https://deploy-production-53a2.up.railway.app/";
 
 function App() {
   const location = useLocation();
