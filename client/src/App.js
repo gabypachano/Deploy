@@ -7,6 +7,7 @@ import NavBar from "./components/NavBar/NavBar";
 import "./App.css";
 import axios from "axios";
 axios.defaults.baseURL = "https://deploy-production-53a2.up.railway.app/";
+// Que haga las peticiones a este backend
 
 function App() {
   const location = useLocation();
